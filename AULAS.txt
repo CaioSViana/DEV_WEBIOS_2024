@@ -1,0 +1,31 @@
+<meta> configuração </meta>
+<title> titulo </title>
+<body>
+    corpo
+    <br>Quebra linha  
+    <hr> Faz uma linha
+</body>m
+
+
+Atributos vão juntos às tags/elementos para definirem valores que modifiquem o funcionamento das tags
+
+
+--------------------GIT----------
+GIT:
+
+
+
+
+Branch - são os nomes de ramificações em um projeto, onde cada desenvolvedor pode criar a sua (raiz) do projeto principal e fazer alterações de forma individual sem alterar o arquivo principal assim conseguindo diminuir as ocorrencias de erro ou apagar o código de outra pessoa, sendo assim é possivel desemvpçver cada parte de forma simultanea sem sobrescrever o desenvolvimento do próximo.
+
+git remote add origin - Faz um vinculo do repositorio local com o repositorio remoto.
+
+git config --global user.name "" - Configurar o nome de usuario do GitHub
+
+git config --global user.email "" - Configurar o e-mail do GitHub
+
+git status - verificar o status dos arquivos
+
+git add - adicionar o arquivo ao stagging area 
+
+git commit -m "Comentario entra aspas" - Comitar 
