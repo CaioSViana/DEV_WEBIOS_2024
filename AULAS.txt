@@ -29,3 +29,17 @@ git status - verificar o status dos arquivos
 git add - adicionar o arquivo ao stagging area 
 
 git commit -m "Comentario entra aspas" - Comitar 
+
+git push -u origin (Nome da Branch)
+
+git branch "nome branch" - cria uma branch com o nome especificado
+
+git branch - verifica as branchs criadas
+
+git checkout "nome da branch destino" - Muda da branch atual para a branch destino
+
+
+
+----------------------------------------------------------------------------
+Fontes Css:
+https://fonts.google.com/
