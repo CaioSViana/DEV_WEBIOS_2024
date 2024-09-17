@@ -43,3 +43,20 @@ git checkout "nome da branch destino" - Muda da branch atual para a branch desti
 ----------------------------------------------------------------------------
 Fontes Css:
 https://fonts.google.com/
+
+height: Altura
+Width: Largura
+
+font-sie: Configura o tamanho de um texto
+
+Medidas absolutas: cm, in, px
+
+Medidas Relativas: %, em, rem, vh, vw
+
+rem / em
+Elemento root(raiz) = html
+rem = sempre ira responder ao tamano configurado no elemento root(html)
+
+em = sempre ira respeitar o tamanho definito na elemento pai mais proximo.
+
+Site responsivos
