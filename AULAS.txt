@@ -60,3 +60,11 @@ rem = sempre ira responder ao tamano configurado no elemento root(html)
 em = sempre ira respeitar o tamanho definito na elemento pai mais proximo.
 
 Site responsivos
+
+------Seletores--------
+
+seleter elemento elemento exemplo:
+
+section h3,h4{
+    
+}

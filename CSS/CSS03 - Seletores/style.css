@@ -1,0 +1,48 @@
+#p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    font-size: 2rem;
+}
+
+#p2{
+    font-size: 1em;
+    color: bisque;
+}
+
+.divs{
+    font-size: 30px;
+    background-color: blueviolet;
+}
+
+#div{
+    background-color: beige;
+    font-size: 3rem;
+}
+
+#sec1{
+    background-color: red;
+}
+
+#sec2{
+    background-color: purple;
+}
+
+#a1{
+    color: white;
+    font-size: 35px;
+}
+
+#a2{
+    color: grey;
+    font-size: 54px;
+}
+
+.aga{
+    color: green;
+    background-color: white;
+}
+
+section h4,p{
+    font-size: 30px;
+    color: pink;
+}
