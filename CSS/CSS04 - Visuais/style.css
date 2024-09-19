@@ -1,0 +1,59 @@
+#p1{
+    border-width: 10px;
+    border-color: aqua;
+    border-style: solid;
+    width: 250px;
+    color: red;
+    font-size: 20px;
+}
+
+#p2{
+    border: 10px violet groove;
+    width: 250px;
+    color: red;
+    font-size: 20px;
+}
+
+#p3{
+    border: 10px gold ridge;
+    width: 250px;
+    color: red;
+    font-size: 20px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 4px 3px 5px rgb(0, 38, 255);
+    
+}
+
+figure{
+    border: 2px solid;
+    width: 400px;
+    border-radius: 5px;
+}
+
+figcaption{
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+}
+
+#div1{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+body{
+    background-image: url("./img/keiko\ yusuke.jpg");
+    background-position: 20%;
+    background-attachment: fixed;
+    background-size: 80%;
+    
+}
