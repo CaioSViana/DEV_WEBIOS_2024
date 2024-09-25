@@ -69,3 +69,19 @@ section h3,h4{
     
 }
 getcssscam
+
+
+-------TCC-----------
+Historia
+Missao, Visao, valores
+Identidade visual(logo, cores)
+ODS
+Analise Swoat(Fofa)
+Nome da empresa
+
+Opcional
+Falar sobre as cores da empresa
+
+Empresa própria
+ou
+Prestadora de serviços

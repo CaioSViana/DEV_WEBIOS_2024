@@ -1,1 +1,64 @@
-/* teste */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+#corpo{
+    background-color: greenyellow;
+    height: 1500px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+header{
+    border: 1px solid black;
+    width: 95%;
+    height: 150px;
+    margin-left: 2.5%;
+    padding-top: 30px;
+}
+
+#IMG1{
+    height: 100px;
+    width: 120px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration-line: none;
+    font-size: 27px;
+    color: blue;
+    font-family: "Source Code Pro", monospace;
+}
+
+main{
+    background-color: red;
+    border: 1px solid black;
+    width: 95%;
+    height: 900px;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+
+img{
+    height: 150px;
+    width: 200px;
+}
+
+figure{
+    border: solid 1px black;
+    margin: 20px;
+    width: 200px;
+    padding: 5px;
+
+}
