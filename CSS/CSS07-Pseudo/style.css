@@ -30,3 +30,30 @@ li:first-child{
 li:nth-child(3){
     border: 1px solid firebrick;
 }
+
+#P2::after{
+    content: " - aqui nos addemos o after";
+    border: black dotted 1px;
+}
+
+#P2::before{
+    content: "Aqui addemos o before - ";
+    border: solid 2px red;
+}
+
+.P3::first-letter{
+    font-size: 4em;
+    font-weight: 800;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.P3::first-line{
+    color: bisque;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+
+.P5::selection{
+    background-color: black;
+    color: greenyellow;
+}
