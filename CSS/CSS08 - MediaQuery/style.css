@@ -1,0 +1,27 @@
+img{
+    height: 700px;
+    width: 700px;
+   
+}
+
+h1{
+    font-size: 5rem;
+}
+
+
+        /*   */
+@media(max-width: 420px){
+    body{
+        background-color: blue;
+        border: solid 2px black;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    img{
+        height: 50vh;
+        width: 100%;
+    }
+}
