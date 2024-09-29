@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Source Code Pro", monospace;
 }
 
 body{
@@ -10,18 +11,36 @@ body{
 }
 
 #corpo{
-    background-color: greenyellow;
-    height: 1500px;
+    background-color: #D4EFDF;
+    height: 100%;
     width: 80%;
     margin-left: 10%;
 }
 
 header{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 95%;
     height: 150px;
     margin-left: 2.5%;
     padding-top: 30px;
+}
+
+main{
+    /* background-color: red; */
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+
+footer{
+    /* background-color: orange; */
+    width: 95%;
+    height: 20px;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bolder;
 }
 
 #IMG1{
@@ -38,27 +57,56 @@ a{
     text-decoration-line: none;
     font-size: 27px;
     color: blue;
-    font-family: "Source Code Pro", monospace;
-}
-
-main{
-    background-color: red;
-    border: 1px solid black;
-    width: 95%;
-    height: 900px;
-    margin-left: 2.5%;
-    margin-top: 20px;
 }
 
 img{
-    height: 150px;
-    width: 200px;
+    height: 180px;
+    width: 220px;
+    
 }
 
 figure{
     border: solid 1px black;
-    margin: 20px;
-    width: 200px;
     padding: 5px;
+    margin: 16px;
+    margin-left: 30px;
+    width: 220px;
+    text-align: center;
+    font-size: 14px;
+}
 
+.sinopse{
+    font-size: 15px;
+}
+
+.Secoes{
+    border: 1px solid black;
+    padding-bottom: 16px;
+}
+
+#Parte2, #Parte3, #Parte4{
+    height: 250px;
+}
+
+#Parte2 p{
+    margin-top: 16px;
+    margin-left: 320px;
+}
+
+#Parte3 p, #Parte4 p{
+    margin-top: 16px;
+}
+
+
+#Parte4 p{
+    margin-top: 16px;
+    margin-left: 300px;
+}
+
+#H2Lista{
+    margin: 20px 0px;
+}
+
+ol{
+    margin-left: 5%;
 }
