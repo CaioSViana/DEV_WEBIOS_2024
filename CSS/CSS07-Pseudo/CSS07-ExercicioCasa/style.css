@@ -1,1 +1,132 @@
-/* teste */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Source Code Pro", monospace;
+}
+
+div{
+    padding: 2em;
+}
+
+header a{
+    font-size: 40px;
+    color: #533618;
+    font-weight: 800;
+    margin-left: 10%;
+}
+
+
+body {
+  background-image: url('IMG/imagem1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+  margin: auto;
+}
+
+
+div,header{
+    background-color: #314A20;
+    width: 95%;
+    margin-left: 0.5%;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+#DIV1{
+    height: 400px;
+}
+
+img{
+    height: 400px;
+    width: 260px;
+}
+
+#IMG1:hover{
+    border: 10px dashed #533618; 
+    height: 360px;
+    width: 220px;
+}
+
+#IMG1{
+    float: left;
+    margin-right: 20px;
+}
+
+p{
+    color: #C1C2BC;
+    font-weight: bolder;
+}
+
+#A1{
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+input{
+    color: #C1C2BC;
+    font-weight: bolder;
+    background-color: #314A20;
+}
+
+
+input:hover{
+    background-color: #8C867C;
+}
+
+#DIV2{
+    height: 330px;
+}
+
+#DIV2 iframe{
+    float: left;
+}
+
+#DIV2 UL{
+    margin-left: 600px;
+    color: #C1C2BC;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center; 
+    color: #725436;
+}
+
+#DIV3 section{
+    height: 430px;
+}
+
+#DIV3 section img{
+    float: left;
+    width: 360px;
+    margin-right: 20px;
+}
+
+section p::first-letter{
+    font-size: 70%;
+    color: #533618;
+    font-weight: bolder;
+}
+
+footer p::after{
+    content: "©| Todos os direitos reservados | Caio Silva Viana";
+}
+
+h2::selection,p::selection,li::selection,a::selection{
+    color: #C1C2BC;
+    background-color: #314A20;
+}
+
+/* 
+#533618-------
+
+#725436
+
+#8C867C--------
+
+#C1C2BC---------
+
+#314A20------- 
+*/
