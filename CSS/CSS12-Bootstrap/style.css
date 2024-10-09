@@ -1,0 +1,8 @@
+.grid{
+    border: 1px solid black;
+}
+
+.item{
+    border: 1px solid black;
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
