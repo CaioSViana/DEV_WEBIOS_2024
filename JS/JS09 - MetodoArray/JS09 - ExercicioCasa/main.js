@@ -2,13 +2,15 @@
 
 var array1 = [17, 43, 8, 4, 97, 56, 29, 95];
 
-array1.forEach( array1 => {
-    if (array1 % 2 === 0) {
-        console.log(`${array1} é par`)
+function imparpar(item){
+    if (item % 2 === 0) {
+        console.log(`${item} é par`)
     }  else {
-        console.log(`${array1} é impar`)
+        console.log(`${item} é impar`)
     }
-})
+}
+
+array1.forEach(imparpar)
 
 //Ex2
 
