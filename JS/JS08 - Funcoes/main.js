@@ -1,65 +1,66 @@
-// variaveis >>> let nome;
-//funções >>> function NomeAluno(){}
+//variáveis
 
-// Criando uma função
-// function Contador() {
-//     // criar uma verificação se o número digitado é par ou impar
-//     let imparPar = 4    ;
-//     let numero = 1;
-    
-//     // se for impar então vamos apresentar na tela todos os números impares de 1 até 50
-//     if(imparPar % 2 == 1) {
-//         console.log("Esse número é impar");
-//         for(numero; numero <= 50; numero++){
-//             if (numero % 2 == 1) {
-//                 console.log(numero);
-//             }
-//         }
-//     }else if(imparPar % 2 == 0) {
-//         // senão (se for par) vamos apresentar na tela todos os números pares e 1 até 50
-//         console.log("Esse número é par");
-//         for(numero; numero <= 50; numero++){
-//             if (numero % 2 == 0) {
-//                 console.log(numero);
-//             }
-//         }
-//     }
-// }
+var nome;
 
-// // funcões são sempre chamadas acompanhadas de ()
-// console.log(Contador());
+//func
+function NomeAluno(){
 
+};
 
-// Arrow Function
+function Contador(){
+    //criar uma verificação se o numero digitado é par ou ímpar
+    // se for ímpar então vamos apresentar na tela todos os números ímpares de 1 até 50
+    // senão (se for par) vamos apresentar na tela todos os números pares de 1 até 50
 
-// let BoasVindas = () => {
-//     return 'Welcome to Sofrendo com JS / com TCC'
-// }
+    let impaPar = 56;
+    let numero = 1;
 
-// console.log(BoasVindas());
-
-// os parenteses servem para trazer valores que estão fora da função para dentro dela, assim conseguindo trabalhar varios tipos de valores informados pelo usuario
-
-// let Soma = (num1, num2) => {
-//     return num1 + num2
-// }
-
-// console.log(Soma(3, 5));
-
-// function Clique() {
-//     let cliques = 1;
-
-//     return cliques++;
-// }
-
-// console.log(Clique());
-
-// let ChamaPopUp = () =>{
-//     alert('Você ganhou um vírus :D')
-// }
-
-let PasseMouse = () =>{
-    console.log("Não faça isso");
+    if (impaPar % 2 == 1){ // pega o numero divide por dois e se o resto da divisao foir 1 é impar, se for 0 é par
+        console.log("Esse número é ímpar " + impaPar);
+        for (numero; numero <= 50; numero++){
+            if(numero % 2 === 1){
+                console.log(numero);
+            }
+        }
+    } else if (impaPar %2 == 0){
+        console.log("Esse número é par " + impaPar);
+        for (numero; numero <= 50; numero++){
+            if(numero % 2 === 0){
+                console.log(numero);
+            }
+        }
+    }
 }
 
-PasseMouse()
+console.log(Contador());
+
+console.clear()
+
+let BoasVindas = () => {
+    return 'Sofrendo com JS/Com TCC'
+}
+
+console.log(BoasVindas());
+
+// Os parenteses servem para trazer valores que estão fora da função para dentro dela assim conseguindo trabalhar com vários tipos de valores informado pelo usuário
+
+let Soma  = (num1, num2) => { // pode passar o valor dentro
+    return num1 + num2;
+}
+
+console.log(Soma(3,5)); // passa o valor fora
+
+function Clique(){
+    let cliques = 1;
+    return cliques++
+}
+
+console.log(Clique());
+
+let ChamaPopup = () =>{
+    alert(`Parabéns você me chamou, descompensado!`)
+}
+
+let PasseMouse = () =>{
+    alert(`Parabéns você me chamou, descompensado!`)
+}
